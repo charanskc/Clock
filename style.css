@@ -12,7 +12,7 @@ body{
     width:300px;
     height:300px;
     border:1px solid white;
-    background:url(/components/clock.png);
+    background:url(components/clock.png);
     background-size: cover;
     justify-content: center;
     align-items: center;
