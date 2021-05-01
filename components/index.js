@@ -1,4 +1,3 @@
-const deg = 6;
 const hr = document.querySelector('#hr');
 const mn = document.querySelector('#mn');
 const ss = document.querySelector('#ss');
@@ -6,8 +5,8 @@ const ss = document.querySelector('#ss');
 setInterval(() => {
     let day = new Date();
 let hh = day.getHours()*30;
-let mm = day.getMinutes()*deg;
-let sc = day.getSeconds()*deg;
+let mm = day.getMinutes()*6;
+let sc = day.getSeconds()*6;
 
 hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
 mn.style.transform = `rotateZ(${mm}deg)`;
